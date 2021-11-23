@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/changeBackground"
+        android:title="Change Background">
+        <menu>
+            <item
+                android:id="@+id/red"
+                android:title="Red" />
+            <item
+                android:id="@+id/green"
+                android:title="Green" />
+
+            <item
+                android:id="@+id/blue"
+                android:title="Blue" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/newGame"
+        android:title="New Game" />
+</menu>
